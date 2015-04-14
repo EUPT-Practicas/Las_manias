@@ -17,7 +17,7 @@ public class LasManias {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Menu:");
-        System.out.println("Mañicas");
+        System.out.println("Mañicas. Nueva subida");
     }
     
 }
