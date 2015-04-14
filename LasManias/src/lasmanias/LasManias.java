@@ -18,7 +18,7 @@ public class LasManias {
         // TODO code application logic here
         System.out.println("Hola majo");
         System.out.println("Menu:");
-        System.out.println("Mañicas subida");
+        System.out.println("Mañicas");
     }
     
 }
