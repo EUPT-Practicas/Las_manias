@@ -36,7 +36,22 @@ public class Partida {
     public void jugar(){
         Jugador jugadorActual;
         int columna;
-        tablero.pintarTablero();       
+        boolean izquierda = false;
+        boolean ok = false;
+//        ok = tablero.jugadaValida(5, 1, 4, 0);
+//        ok = tablero.jugadaValida(5, 1, 3, -1);
+        ok = tablero.jugadaValida(5, 5, 4, 6, false);
+        ok = tablero.jugadaValida(4, 6, 3, 7, false);
+        //ok = tablero.jugadaValida(4, 6, 2, 8, false);
+        //ok = tablero.jugadaValida(5, 1, 5, -1);
+        
+        tablero.pintarTablero(); 
+        if(ok){
+            System.out.println("Bien");
+        }else{
+            System.out.println("Mal");
+        }
+              
 //        while(true){
 //            if(primerTurno){
 //                jugadorActual = jugador1;
