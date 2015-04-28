@@ -17,5 +17,10 @@ public class Jugador {
         this.nombre = nombre;
         this.Simbolo = Simbolo;
     }
+
+    public char getSimbolo() {
+        return Simbolo;
+    }
+    
     
 }
