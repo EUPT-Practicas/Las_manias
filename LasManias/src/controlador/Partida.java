@@ -18,7 +18,6 @@ public class Partida {
     private static final char SIMBOLO_UNO = 'o';
     private static final char SIMBOLO_DOS = '#';
     private TableroSwing vista;
-    private int id;
     private Tablero tablero;
     private Jugador jugador1;
     private Jugador jugador2;
@@ -114,12 +113,5 @@ public class Partida {
         primerTurno = !primerTurno;
     }
 
-    /**
-     * Mostrar mensaje.
-     *
-     * @param mensaje
-     */
-    public void mensaje(String mensaje) {
-        System.out.println(mensaje);
-    }
+    
 }

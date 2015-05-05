@@ -226,12 +226,12 @@ public class TableroSwing extends JFrame implements ActionListener, Observador, 
                 fila = casilla.getFil();
                 columna = casilla.getCol();
                 seleccionado = true;
-                //this.tablero.posiblesMovimientos(fila, columna);
+                this.tablero.posiblesMovimientos(fila, columna);
 
             } else {
                 nuevaFila = casilla.getFil();
                 nuevaColumna = casilla.getCol();
-                // this.tablero.eliminarPosiblesMovimientos();
+                 this.tablero.eliminarPosiblesMovimientos();
                 seleccionado = false;
                 //System.out.println(fila + " " + columna + " " + nuevaFila + " " + nuevaColumna);
                 partida.jugar(fila, columna, nuevaFila, nuevaColumna);
